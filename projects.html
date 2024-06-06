@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Portfolio-Projects</title>
+
+	<!-- Meta Data -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Styles -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+</head>
+
+<body>
+	<main class="main">
+		<div class="container gutter-top gutter-bottom">
+			<div class="row sticky-parent">
+				<!-- Sidebar -->
+				<aside class="col-12 col-md-12 col-xl-3">
+					<div class="sidebar box-outer sticky-column">
+						<!-- My photo -->
+						<div class="sidebar-base-info">
+							<figure class="avatar-box">
+								<img src="assets/images/avatar1.png" alt="avatar" />
+							</figure>
+
+							<div class="text-xl-center">
+								<h3 class="title title-h3 sidebar-name">Prema Ale</h3>
+								<div class="badge">UI Developer</div>
+							</div>
+
+							<button class="btn btn-small btn-icon-right sidebar-btn js-btn-toggle">
+								<span>Show Contacts</span><i class="feathericon-chevron-down"></i>
+							</button>
+						</div>
+
+						<div class="sidebar-additional-info js-show">
+							<div class="separation"></div>
+							<ul class="details-info">
+								<!-- Email -->
+								<li class="details-info-item">
+									<span class="box icon-box"><i class="font-icon icon-envelope"></i></span>
+									<div class="contacts-block-info">
+										<span class="overhead">Email</span>
+										<a class="text-overflow" href="mailto:prema.ale2@gmail.com"
+											title="prema.ale2@gmail.com">prema.ale2@gmail.com</a>
+									</div>
+								</li>
+								<!-- Phone -->
+								<li class="details-info-item">
+									<span class="box icon-box"><i class="font-icon icon-phone"></i></span>
+									<div class="contacts-block-info">
+										<span class="overhead">Phone</span>
+										<span class="text-overflow" title="+44 7879146272">+44 7879146272</span>
+									</div>
+								</li>
+								<!-- Location -->
+								<li class="details-info-item">
+									<span class="box icon-box"><i class="font-icon icon-location"></i></span>
+									<div class="contacts-block-info">
+										<span class="overhead">Location</span>
+										<span class="text-overflow" title="Birmingham, UK">Birmingham, UK</span>
+									</div>
+								</li>
+							</ul>
+							<div class="separation d-xl-none"></div>
+
+							<!-- Social -->
+							<div class="social">
+								<a class="social_link" href="https://github.com/Abeep777" target="_blank"><i
+										class="feathericon-github"></i></a>
+								<a class="social_link" href="https://www.linkedin.com/in/prema-ale-785547143/"
+									target="_blank"><i class="feathericon-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</aside>
+
+				<!-- Content -->
+				<div class="col-12 col-md-12 col-xl-9">
+					<div class="box-outer pb-0">
+						<!-- Menu -->
+						<div class="nav-container">
+							<ul class="nav">
+								<li class="nav-item"><a href="index.html">About</a></li>
+								<li class="nav-item"><a class="active" href="projects.html">Projects</a></li>
+							</ul>
+						</div>
+
+						<!-- About -->
+						<div class="pb-3">
+							<h1 class="title title-h1 title-separate">Projects</h1>
+						</div>
+
+						<!-- Filter -->
+						<div class="select">
+							<span class="placeholder">Select category</span>
+							<ul class="filter">
+								<li class="filter-item">Category</li>
+								<li class="filter-item active" data-filter="*"><a class="filter-link active"
+										href="#filter">All</a></li>
+								<li class="filter-item" data-filter=".category-web-development"><a class="filter-link"
+										href="#filter">Web Development</a></li>
+								<li class="filter-item" data-filter=".category-data"><a class="filter-link"
+										href="#filter">Data Exploration and Visualization</a></li>
+							</ul>
+							<input type="hidden" name="changemetoo" />
+						</div>
+
+						<!-- Gallery -->
+						<div class="gallery-grid js-masonry js-filter-container">
+							<div class="gutter-sizer"></div>
+							<!-- Item 1 -->
+							<div class="gallery-grid-item category-web-development">
+								<a href="https://iface-app-pro.onrender.com/" target="_blank">
+									<div class="gallery-grid-image-wrap">
+										<img class="gallery-grid-image cover lazyload" src="assets/images/project-1.png"
+											alt="" />
+									</div>
+									<div class="gallery-grid-caption">
+										<h3 class="title gallery-grid-title">iFace-App</h3>
+										<span class="gallery-grid-category">Web Development</span>
+									</div>
+								</a>
+							</div>
+
+							<!-- Item 2 -->
+							<div class="gallery-grid-item category-web-development">
+								<a href="https://abeep777.github.io/mitho-restaurant-web/" target="_blank">
+									<div class="gallery-grid-image-wrap">
+										<img class="gallery-grid-image cover lazyload" src="assets/images/project-2.png"
+											alt="" />
+									</div>
+									<div class="gallery-grid-caption">
+										<h3 class="title gallery-grid-title">Mitho Restaurant Website</h3>
+										<span class="gallery-grid-category">Web Development</span>
+									</div>
+								</a>
+							</div>
+
+							<!-- Item 3 -->
+							<div class="gallery-grid-item category-data">
+								<a href="https://github.com/Abeep777/SQL-Code" target="_blank">
+									<div class="gallery-grid-image-wrap">
+										<img class="gallery-grid-image cover lazyload" src="assets/images/project-3.jpg"
+											alt="" />
+									</div>
+									<div class="gallery-grid-caption">
+										<h3 class="title gallery-grid-title">Covid-19 Deaths/Vaccination Data using SQL
+										</h3>
+										<span class="gallery-grid-category">Data Exploration</span>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div><!-- Content -->
+			</div><!-- sticky-parent -->
+		</div><!-- container -->
+	</main>
+
+	<div class="back-to-top"></div>
+
+	<!-- JavaScripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"
+		integrity="sha512-MAhdSIQcK5z9i33WN0KzveJUhM2852CJ1lJp4o60cXhQT20Y3friVRdeZ5TEWz4Pi+nvaQqnIqWJJw4HVTKg1Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+		integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"
+		integrity="sha512-7taFZYSf0eAWyi1UvMzNrBoPVuvLU7KX6h10e4AzyHVnPjzuxeGWbXYX+ED9zXVVq+r9Xox5WqvABACBSCevmg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+		integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="assets/js/common.js"></script>
+
+</body>
+
+</html>
